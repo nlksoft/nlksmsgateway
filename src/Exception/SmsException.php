@@ -6,7 +6,7 @@
  * Time: 11:58
  */
 
-namespace Nlksoft\Exception;
+namespace Nlksoft\SmsGateway\Exception;
 
 
 use \Exception;

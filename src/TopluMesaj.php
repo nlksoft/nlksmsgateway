@@ -6,7 +6,7 @@
  * Time: 11:51
  */
 
-namespace Nlksoft;
+namespace Nlksoft\SmsGateway;
 
 
 Class TopluMesaj {

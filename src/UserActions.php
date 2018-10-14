@@ -6,11 +6,12 @@
  * Time: 11:46
  */
 
-namespace Nlksoft;
+namespace Nlksoft\SmsGateway;
 
-use Nlksoft\Exception\ClientException;
-use Nlksoft\Exception\SmsException;
-use Nlksoft\Exception\AuthenticationException;
+use Nlksoft\SmsGateway\Exception\ClientException;
+use Nlksoft\SmsGateway\Exception\SmsException;
+use Nlksoft\SmsGateway\Exception\AuthenticationException;
+use Nlksoft\SmsGateway\Curl;
 
 
 
@@ -98,8 +99,8 @@ class UserActions {
                 CURLOPT_POSTFIELDS     => $postFields,
                 CURLOPT_TIMEOUT        => 50,
                 CURLOPT_ENCODING       => '',
-                CURLOPT_HEADERFUNCTION => [ 'Nlksoft\Curl', 'head' ],
-                CURLOPT_WRITEFUNCTION  => [ 'Nlksoft\Curl', 'body' ]
+                CURLOPT_HEADERFUNCTION => [ 'Nlksoft\SmsGateway\Curl', 'head' ],
+                CURLOPT_WRITEFUNCTION  => [ 'Nlksoft\SmsGateway\Curl', 'body' ]
             ]
         );
 

@@ -6,7 +6,7 @@
  * Time: 11:45
  */
 
-namespace Nlksoft\File;
+namespace Nlksoft\SmsGateway\File;
 
 
 interface FileReader {

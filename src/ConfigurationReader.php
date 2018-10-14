@@ -6,7 +6,7 @@
  * Time: 11:48
  */
 
-namespace Nlksoft;
+namespace Nlksoft\SmsGateway;
 
 use Nlksoft\File\FileReader;
 

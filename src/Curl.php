@@ -6,7 +6,7 @@
  * Time: 11:50
  */
 
-namespace Nlksoft;
+namespace Nlksoft\SmsGateway;
 
 
 class  Curl {
