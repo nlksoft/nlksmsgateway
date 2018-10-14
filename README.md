@@ -1,2 +1,3 @@
-# nlksmsgateway
-Laravel Sms Gateway
+# Laravel Nlksoft Sms Gateway
+ 
+MIT
