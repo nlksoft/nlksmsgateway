@@ -2,9 +2,9 @@
 
 namespace Nlksoft\SmsGateway;
 
-use Nlksoft\Exception\ClientException;
-use Nlksoft\Exception\SmsException;
-use Nlksoft\Exception\AuthenticationException;
+use Nlksoft\SmsGateway\Exception\ClientException;
+use Nlksoft\SmsGateway\Exception\SmsException;
+use Nlksoft\SmsGateway\Exception\AuthenticationException;
 
 
 class MesajPaneli {
