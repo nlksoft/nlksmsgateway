@@ -3,7 +3,7 @@
 namespace Nlksoft\SmsGateway;
 
 
-
+use Nlksoft\SmsGateway\MesajPaneli;
 use Illuminate\Support\ServiceProvider;
 
 class SmsGatewayServiceProvider extends ServiceProvider
