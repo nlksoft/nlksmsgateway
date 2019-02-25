@@ -3,7 +3,7 @@
 namespace Nlksoft\SmsGateway;
 
 
-use Nlksoft\SmsGateway\MesajPaneli;
+use Nlksoft\SmsGateway\Nlksms;
 use Illuminate\Support\ServiceProvider;
 
 class SmsGatewayServiceProvider extends ServiceProvider
@@ -23,7 +23,7 @@ class SmsGatewayServiceProvider extends ServiceProvider
     {
         $this->app->singleton('nlksms', function(){
 
-            return new MesajPaneli( array(
+            return new Nlksms( array(
                 'user' => array('name'=> $this->phone,'pass'=>$this->password)
             ));
         });

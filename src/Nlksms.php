@@ -7,7 +7,7 @@ use Nlksoft\SmsGateway\Exception\SmsException;
 use Nlksoft\SmsGateway\Exception\AuthenticationException;
 
 
-class MesajPaneli {
+class Nlksms {
     private $actions;
     private $parametricMessages = [];
 

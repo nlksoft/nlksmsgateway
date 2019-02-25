@@ -8,10 +8,9 @@
 
 namespace Nlksoft\SmsGateway;
 
-
-use Nlksoft\Exception\ClientException;
-use Nlksoft\Exception\SmsException;
-use Nlksoft\Exception\AuthenticationException;
+use Nlksoft\SmsGateway\Exception\ClientException;
+use Nlksoft\SmsGateway\Exception\SmsException;
+use Nlksoft\SmsGateway\Exception\AuthenticationException;
 
 
 class Credentials {
@@ -22,7 +21,7 @@ class Credentials {
     public function __construct( $data ) {
 
 
-         $this->username = $data['user']['name'];
+          $this->username = $data['user']['name'];
           $this->password = $data['user']['pass'];
 
 
